@@ -3,6 +3,7 @@ function openNewPagejoke() {
     window.open('joke.html', '_blank');
     
   }
+  // 
   function openNewPagequote() {
     getNewquote();
     window.open('quote.html', '_blank');
