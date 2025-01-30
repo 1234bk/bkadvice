@@ -100,7 +100,9 @@ footer{
         
     }
     .container3{
-    
+        display: flex;
+        justify-content: center;
+        align-items: center;
         margin-top: 1rem;
         font-size:0.8em;
         background-color: rgb(111, 106, 186);
@@ -155,23 +157,23 @@ footer{
     
 }
 .container3{
-    
-    margin-top: 2rem;
-    /* margin-left:15rem; */
-    /* padding-left: 15rem; */
-    font-size: 1.5rem;
-    background-color: rgb(111, 106, 186);
-    height: 45%;
-    width: 60%;
-    border: #fff solid 2px;
-    border-radius: 10px;
-    padding: 15px;
-    color: #fff;
-    margin-left: 5rem;
     display: flex;
     justify-content: center;
     align-items: center; 
     text-align: center;
+    
+    /* margin-top: 2rem; */
+    
+    font-size: 1.5rem;
+    background-color: rgb(111, 106, 186);
+    height: 45%;
+    width: 90%;
+    border: #fff solid 2px;
+    border-radius: 10px;
+    /* padding: 15px; */
+    color: #fff;
+    /* margin-left: 5rem; */
+    
 
 
 }
